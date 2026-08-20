@@ -1,0 +1,13 @@
+.superpowers/
+/.bundle/
+/coverage/
+/pkg/
+/tmp/
+/vendor/bundle/
+
+.env
+.env.*
+!.env.example
+
+*.gem
+.DS_Store

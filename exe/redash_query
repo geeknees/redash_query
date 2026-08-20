@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# ABOUTME: Entry point for the redash_query CLI.
+# Adds lib/ to load path and delegates to RedashQuery::CLI.
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+
+require "redash_query"
+
+RedashQuery::CLI.run(ARGV)
